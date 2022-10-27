@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games News Era</title>
+
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar section -->
+    <section id="navbar-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img width="75" height="75" src="imgs/logo.png" alt="Game">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#News">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#contact">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- main section -->
+    <section id="main-section">
+        <!-- carousel starts -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video width="100%" autoplay muted disablepictureinpicture>
+                        <source src="video/vid2.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="container">
+                            <div class="news-feed-container">
+                                <h2>Valorant News Feed</h2>
+                                <div>
+                                    <img width="50%" src="imgs/valorant.jpg" alt="Fortnite news feed">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video width="100%" autoplay muted disablepictureinpicture>
+                        <source src="video/vid1.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="container">
+                            <div class="news-feed-container">
+                                <h2>Fortnite News Feed</h2>
+                                <div>
+                                    <img width="50%" src="imgs/fortnite-new-feed-img1.jpg" alt="Fortnite news feed">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <video width="100%" autoplay muted disablepictureinpicture>
+                        <source src="video/vid3.mp4" type="video/mp4">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="container">
+                            <div class="news-feed-container">
+                                <h2>PUBG PC News Feed</h2>
+                                <div>
+                                    <img width="50%" src="imgs/pubg-pc-news-feed-img3.jpg" alt="Fortnite news feed">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--carousel ends -->
+
+        <!-- main starts -->
+        <main>
+            <!-- News starts -->
+            <div id="News">
+                <div class="news-aside1">
+                    <h1>News</h1>
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <div class="img-and-headlines">
+                                    <div>
+                                        <img width="100%" src="imgs/fortnite-new-feed-img1.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Fortnite</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis
+                                            aliquam nostrum nemo voluptatum corporis quia aspernatur vero quas quisquam
+                                            tenetur et expedita minima odit neque asperiores, ullam quaerat doloribus?
+                                        </p>
+                                        <div>
+                                            <span>
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="img-and-headlines">
+                                    <div>
+                                        <img width="100%" src="imgs/valorant-img.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Valorant</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis
+                                            aliquam nostrum nemo voluptatum corporis quia aspernatur vero quas quisquam
+                                            tenetur et expedita minima odit neque asperiores, ullam quaerat doloribus?
+                                        </p>
+                                        <div>
+                                            <span>
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="img-and-headlines">
+                                    <div>
+                                        <img width="100%" src="imgs/pubg-pc.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Pubg PC</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis
+                                            aliquam nostrum nemo voluptatum corporis quia aspernatur vero quas quisquam
+                                            tenetur et expedita minima odit neque asperiores, ullam quaerat doloribus?
+                                        </p>
+                                        <div>
+                                            <span>
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="img-and-headlines">
+                                    <div>
+                                        <img width="100%" src="imgs/League-Of-Legends.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Leaugus Of Legends</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis
+                                            aliquam nostrum nemo voluptatum corporis quia aspernatur vero quas quisquam
+                                            tenetur et expedita minima odit neque asperiores, ullam quaerat doloribus?
+                                        </p>
+                                        <div>
+                                            <span>
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="img-and-headlines">
+                                    <div>
+                                        <img width="100%" src="imgs/Apex-legends-img.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Apex Legends</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis
+                                            aliquam nostrum nemo voluptatum corporis quia aspernatur vero quas quisquam
+                                            tenetur et expedita minima odit neque asperiores, ullam quaerat doloribus?
+                                        </p>
+                                        <div>
+                                            <span>
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <div class="img-and-headlines">
+                                    <div>
+                                        <img width="100%" src="imgs/gta-v-img.jpg" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>GTA-V</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reiciendis
+                                            aliquam nostrum nemo voluptatum corporis quia aspernatur vero quas quisquam
+                                            tenetur et expedita minima odit neque asperiores, ullam quaerat doloribus?
+                                        </p>
+                                        <div>
+                                            <span>
+                                                <i class="fa-regular fa-thumbs-up"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news-events-section">
+                        <h4>ESL PUBG PC Tournament FAQ</h4>
+                        <p>The <span class="fw-bold">ESL PUBG tournament system</span> is where players do not get
+                            kicked out of the tournament after one match. Instead, players will participate in multiple
+                            matches each round. Once a full round is finished, we will combine the placement scores and
+                            kill points from players. With fewer players in the tournament, you will be playing against
+                            more skilled and competitive players as you progress to the final round.</p>
+
+                        <div class="mt-5">
+                            <h4 class="fw-bold">How does it work?</h4>
+                        </div>
+                        <div class="news-listing mt-4">
+                            <ul>
+                                <li>
+                                    Tournament schedule and lobby information is available through the <a
+                                        href="https://discord.gg/eslpubg">ESL PUBG Discord</a> tournament announcement
+                                    channel.
+                                    <img width="80%" src="imgs/pubg-tour-img.jpg" alt="">
+                                </li>
+                                <li>
+                                    <p class="fw-bold">Each round has multiple matches:</p>
+                                    If you lose early in a match, do not give up - you are still participating in the
+                                    tournament! Pay attention to the Discord announcement channel for your next lobby
+                                    information.
+                                </li>
+                                <li>You earn points through the combination of your match placement points and kill
+                                    points.</li>
+                                <li>At the end of each round, the total points of your played matches is displayed on
+                                    the tournament's "Rankings" page.</li>
+                                <li>The top teams will move into the next round, others will be eliminated. Tournaments
+                                    are normally running in single bracket unless announced.</li>
+                                <li>Teams and players will continue to battle and be eliminated until the last round is
+                                    left with 1 group.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <aside class="news-aside2">
+                    <div class="news-simulator-container">
+                        <div class="animated-img-container-1">
+                            <img width="280" src="imgs/Apex-legends-img.jpg">
+                            <img width="280" src="imgs/gta-v-img.jpg">
+                            <img width="280" src="imgs/League-Of-Legends.jpg">
+                            <img width="280" src="imgs/Apex-legends-img.jpg">
+                            <img width="280" src="imgs/pubg-pc.jpg">
+                        </div>
+
+                        <div class="animated-img-container-2">
+                            <img width="280" src="imgs/League-Of-Legends.jpg">
+                            <img width="280" src="imgs/Apex-legends-img.jpg">
+                            <img width="280" src="imgs/gta-v-img.jpg">
+                            <img width="280" src="imgs/Apex-legends-img.jpg">
+                            <img width="280" src="imgs/pubg-pc.jpg">
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            <!-- News ends -->
+
+        </main>
+        <!-- main ends -->
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="shadow-div"></div>
+            <div id="contact" class="container text-white">
+                <div>
+                    <h2>Contact</h2>
+                    <div class="contact-container">
+                        <h5>Send Your Message Here</h5>
+                        <div class="contact-form">
+                            <form action="" method="post">
+                                <div>
+                                    <input type="email" name="useremail" placeholder="Email Address">
+                                </div>
+                                <div>
+                                    <textarea name="message" id="messgae" placeholder="Drop Your Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn bg-primary">Drop Here</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menus">
+                    <span>
+                        <h1>Aditya Nayak</h1>
+                        <address>Web Developer/Designer</address>
+                    </span>
+                    <span class="social-icons">
+                        <a href="https://www.linkedin.com/in/aditya-nayak-03b6921ba/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Nayakaditya?tab=repositories">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-stack-overflow"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4bfb5306a3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
